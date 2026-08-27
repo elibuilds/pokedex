@@ -5,9 +5,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native'
 import { Ionicons } from '@expo/vector-icons';
 
-import HomeScreen from '../screens/HomeScreen';
-import DetailsScreen from '../screens/DetailsScreen';
-import AboutScreen from '../screens/AboutScreen';
+import HomeScreen from './screens/HomeScreen';
+import DetailsScreen from './screens/DetailsScreen';
+import AboutScreen from './screens/AboutScreen';
 import HelpScreen from './screens/HelpScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import LogoutScreen from './screens/LogoutScreen';
